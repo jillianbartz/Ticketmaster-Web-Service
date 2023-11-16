@@ -1,0 +1,162 @@
+<%- include ('../partials/head') %>
+<%- include ('../partials/menu') %>
+<div class="col"><%- include ('../partials/message') %></div>
+
+<main>
+  <div class="container">
+    <!-- THE REST OF YOUR HTML CODE GOES HERE -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Name</th>
+          <th scope="col">Date</th>
+          <th scope="col">Local Time</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[0].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[0].name %></td>
+          <td><%= events[0].dates.start.localDate %></td>
+          <td><%= events[0].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[0].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[1].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[1].name %></td>
+          <td><%= events[1].dates.start.localDate %></td>
+          <td><%= events[1].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[1].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[2].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[2].name %></td>
+          <td><%= events[2].dates.start.localDate %></td>
+          <td><%= events[2].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[2].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[3].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[3].name %></td>
+          <td><%= events[3].dates.start.localDate %></td>
+          <td><%= events[3].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[3].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[4].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[4].name %></td>
+          <td><%= events[4].dates.start.localDate %></td>
+          <td><%= events[4].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[4].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[5].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[5].name %></td>
+          <td><%= events[5].dates.start.localDate %></td>
+          <td><%= events[5].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[5].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[6].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[6].name %></td>
+          <td><%= events[6].dates.start.localDate %></td>
+          <td><%= events[6].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[6].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[7].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[7].name %></td>
+          <td><%= events[7].dates.start.localDate %></td>
+          <td><%= events[7].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[7].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[8].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[8].name %></td>
+          <td><%= events[8].dates.start.localDate %></td>
+          <td><%= events[8].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[8].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+      <tbody>
+        <tr>
+          <td><img src="<%= events[9].images[1].url %>" alt="https://play-lh.googleusercontent.com/1anA3PdRvMigQEkd6aokgtuqHPiZgyfNJWouQ7h2tfaLrzZ48pf7nlvhTa3VsaBjlQAx" width="100" height="100"></td>
+          <td><%= events[9].name %></td>
+          <td><%= events[9].dates.start.localDate %></td>
+          <td><%= events[9].dates.start.localTime %></td>
+          <td>
+            <form action="<%= events[9].url %>">
+            <button id="submit_button" class="btn btn-primary" type="submit">
+              Book Now
+            </button>
+        </form></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<%- include ('../partials/footer') %>
